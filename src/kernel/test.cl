@@ -1,4 +1,4 @@
-__kernel void convolution(__global const uchar* src, __global uchar* dst,
+__kernel void test_kernel(__global const uchar* src, __global uchar* dst,
 				      __global const float* filter, 
 					  const int2 size, 
 					  const int2 filter_size){
